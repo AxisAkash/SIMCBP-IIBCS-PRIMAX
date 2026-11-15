@@ -13,8 +13,7 @@ Developed by **IBCS-PRIMAX Software (Bangladesh) Ltd.**
 
 ## Status
 
-🚧 **Early foundation.** This repository is in active Phase 1 (architecture &
-design system). Module status is tracked honestly in
+🚧 **Frontend complete (demo).** The full bilingual frontend — application shell, 14 modules, 5 supporting components, 7-category handover, role dashboards and login — is implemented on mock data. Backend (API, DB, real auth) is a separate upcoming phase. Module status is tracked honestly in
 [`docs/REQUIREMENTS_TRACEABILITY.md`](docs/REQUIREMENTS_TRACEABILITY.md) and
 [`docs/DEVELOPMENT_ROADMAP.md`](docs/DEVELOPMENT_ROADMAP.md). Nothing here is
 claimed production-ready, and no figures in the UI represent real government data.

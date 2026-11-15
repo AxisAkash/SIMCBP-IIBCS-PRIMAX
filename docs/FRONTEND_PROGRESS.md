@@ -36,10 +36,13 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 - ✅ Overview + readiness ring · ✅ 7 category cards · ✅ Deliverable table + workflow drawer (evidence, versions, approve/reject) · ✅ Final acceptance gate
 
 ## Role dashboards
-- ⬜ Role-specific dashboard variants
+- ✅ Role-switchable executive dashboard (8 role views)
+
+## Auth
+- ✅ Login page (split-screen branded) + sign-out flow
 
 ## QA
-- ⬜ Full route verification · ✅ lint/typecheck/build green (incremental) · ⬜ responsive pass
+- ✅ Route verification (27 routes build) · ✅ lint/typecheck/build/parity green · ✅ visual QA (dashboard, handover, login; EN/BN + dark)
 
 ## Next task
-Login page, role-dashboard variants, then final QA (routes, responsive, lint/build).
+Frontend complete. Next phase (separate): backend — API, DB, real auth/RBAC wiring.

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Settings as SettingsIcon, UserRound } from 'lucide-react';
+import { LogOut, Settings as SettingsIcon, UserRound } from 'lucide-react';
 import { ROLE_DEFINITIONS, Role } from '@simcbp/types';
 import { Dropdown } from '@/components/ui/dropdown';
 import { useLocale, useTranslations } from '@/lib/i18n/provider';
@@ -16,6 +16,7 @@ export function UserMenu() {
   const locale = useLocale();
   const tShell = useTranslations('shell');
   const tNav = useTranslations('nav');
+  const tCommon = useTranslations('common');
   const roleDef = ROLE_DEFINITIONS[DEMO_USER.role];
   const roleLabel = locale === 'bn' ? roleDef.labelBn : roleDef.labelEn;
 
@@ -52,6 +53,10 @@ export function UserMenu() {
           <Link href="/settings" onClick={close} className={itemClass}>
             <SettingsIcon className="h-4 w-4" aria-hidden />
             {tNav('settings')}
+          </Link>
+          <Link href="/login" onClick={close} className={`${itemClass} border-t border-border`}>
+            <LogOut className="h-4 w-4" aria-hidden />
+            {tCommon('signOut')}
           </Link>
           <div className="border-t border-border px-3 py-2 text-xs text-muted">
             {tShell('demoSession')}
