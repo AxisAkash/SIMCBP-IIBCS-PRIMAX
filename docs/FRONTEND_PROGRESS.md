@@ -24,13 +24,13 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 - ✅ M08 GIS — division cartogram + snapshot
 - ✅ M09 AI assistant — advisory bilingual chat
 - ✅ M10 Mobile & field ops — device preview + sync status
-- ⬜ M11 IAM / users / roles / permissions (/administration)
-- ⬜ M12 Helpdesk / CRM / referral
-- ⬜ M13 Dynamic modules / bulk exchange
-- ⬜ M14 Multi-scheme config
+- ✅ M11 IAM — users, role permission matrix, add-user drawer
+- ✅ M12 Helpdesk — tickets, SLA, knowledge base
+- ✅ M13 Dynamic modules — interactive form builder + version history
+- ✅ M14 Multi-scheme — programme cards + config
 
 ## Supporting components
-- ⬜ X1 Audit log · ⬜ X2 Privacy/consent · ⬜ X3 Sysadmin/backup · ⬜ X4 Data store · ⬜ X5 Localization admin
+- ✅ X1 Audit log · ✅ X2 Privacy/consent · ✅ X3 Sysadmin/backup · ✅ X4 Data store · ✅ X5 Localization admin
 
 ## Handover (7 categories)
 - ⬜ Overview + readiness · ⬜ Category dashboards · ⬜ Deliverable detail + workflow · ⬜ Final report
@@ -42,4 +42,4 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 - ⬜ Full route verification · ✅ lint/typecheck/build green (incremental) · ⬜ responsive pass
 
 ## Next task
-Build M03 Payments (dashboard + payroll list + reconciliation), then M04/M05.
+Build the 7-category Handover module, then login page, role dashboards, and final QA/polish.
