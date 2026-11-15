@@ -16,15 +16,15 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 ## Modules
 - 🟡 M01 Beneficiary lifecycle — list, detail (tabs), new-application wizard ✅; verification queue / bulk import ⬜
 - 🟡 M02 Beneficiary profile — profile tabs on detail ✅
-- ⬜ M03 Payments / payroll / reconciliation
-- ⬜ M04 Training
-- ⬜ M05 Grievance
-- ⬜ M06 Integration / API bank
-- ⬜ M07 Monitoring, BI & reporting
-- ⬜ M08 GIS
-- ⬜ M09 AI assistant (advisory)
-- ⬜ M10 Mobile & field ops showcase
-- ⬜ M11 IAM / users / roles / permissions
+- ✅ M03 Payments — cycles, transactions, reconciliation, payroll confirm dialog
+- ✅ M04 Training — directory with capacity bars
+- ✅ M05 Grievance — case directory + case drawer
+- ✅ M06 Integration / API bank — directory, masked keys, status
+- ✅ M07 Monitoring, BI & reporting — KPIs, coverage, scheduled reports
+- ✅ M08 GIS — division cartogram + snapshot
+- ✅ M09 AI assistant — advisory bilingual chat
+- ✅ M10 Mobile & field ops — device preview + sync status
+- ⬜ M11 IAM / users / roles / permissions (/administration)
 - ⬜ M12 Helpdesk / CRM / referral
 - ⬜ M13 Dynamic modules / bulk exchange
 - ⬜ M14 Multi-scheme config

@@ -8,8 +8,18 @@ import {
   Map,
   LifeBuoy,
   PackageCheck,
-  ShieldCheck,
   Settings,
+  Bot,
+  Smartphone,
+  Share2,
+  Boxes,
+  Layers,
+  ScrollText,
+  UsersRound,
+  Lock,
+  Server,
+  Database,
+  Globe,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -26,11 +36,7 @@ export interface NavGroup {
   items: NavItem[];
 }
 
-/**
- * Navigation model for the application shell. Hrefs map to real routes:
- * `/dashboard` is implemented; the rest resolve to the honest "planned module"
- * placeholder (see app/(app)/[...slug]) so there are no dead links.
- */
+/** Navigation model for the application shell — every href resolves to a real page. */
 export const NAV_GROUPS: NavGroup[] = [
   {
     key: 'overview',
@@ -50,20 +56,39 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { key: 'monitoring', href: '/monitoring', icon: BarChart3 },
       { key: 'gis', href: '/gis', icon: Map },
+      { key: 'aiAssistant', href: '/ai-assistant', icon: Bot },
     ],
   },
   {
-    key: 'support',
-    items: [{ key: 'helpdesk', href: '/helpdesk', icon: LifeBuoy }],
+    key: 'operations',
+    items: [
+      { key: 'helpdesk', href: '/helpdesk', icon: LifeBuoy },
+      { key: 'mobile', href: '/mobile', icon: Smartphone },
+      { key: 'integration', href: '/integration', icon: Share2 },
+    ],
+  },
+  {
+    key: 'configuration',
+    items: [
+      { key: 'dynamicModules', href: '/dynamic-modules', icon: Boxes },
+      { key: 'multiScheme', href: '/schemes', icon: Layers },
+    ],
   },
   {
     key: 'governance',
-    items: [{ key: 'handover', href: '/handover', icon: PackageCheck }],
+    items: [
+      { key: 'handover', href: '/handover', icon: PackageCheck },
+      { key: 'audit', href: '/audit', icon: ScrollText },
+    ],
   },
   {
     key: 'system',
     items: [
-      { key: 'administration', href: '/administration', icon: ShieldCheck },
+      { key: 'administration', href: '/administration', icon: UsersRound },
+      { key: 'privacy', href: '/privacy', icon: Lock },
+      { key: 'sysadmin', href: '/system-admin', icon: Server },
+      { key: 'dataStore', href: '/data-store', icon: Database },
+      { key: 'localization', href: '/localization', icon: Globe },
       { key: 'settings', href: '/settings', icon: Settings },
     ],
   },

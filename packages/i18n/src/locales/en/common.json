@@ -15,13 +15,25 @@
     "gis": "GIS Intelligence",
     "helpdesk": "Helpdesk",
     "handover": "Software Handover",
-    "administration": "Administration",
-    "settings": "Settings"
+    "administration": "User Management",
+    "settings": "Settings",
+    "aiAssistant": "AI Assistant",
+    "mobile": "Mobile & Field",
+    "integration": "Integration",
+    "dynamicModules": "Dynamic Modules",
+    "multiScheme": "Multi-Scheme",
+    "audit": "Audit Log",
+    "privacy": "Privacy & Consent",
+    "sysadmin": "System Admin",
+    "dataStore": "Data Store",
+    "localization": "Localization"
   },
   "navGroups": {
     "overview": "Overview",
     "programme": "Programme",
     "intelligence": "Intelligence",
+    "operations": "Operations",
+    "configuration": "Configuration",
     "support": "Support",
     "governance": "Governance",
     "system": "System"

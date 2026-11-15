@@ -15,13 +15,25 @@
     "gis": "জিআইএস ইন্টেলিজেন্স",
     "helpdesk": "হেল্পডেস্ক",
     "handover": "সফটওয়্যার হ্যান্ডওভার",
-    "administration": "প্রশাসন",
-    "settings": "সেটিংস"
+    "administration": "ব্যবহারকারী ব্যবস্থাপনা",
+    "settings": "সেটিংস",
+    "aiAssistant": "এআই সহকারী",
+    "mobile": "মোবাইল ও মাঠ",
+    "integration": "ইন্টিগ্রেশন",
+    "dynamicModules": "ডাইনামিক মডিউল",
+    "multiScheme": "মাল্টি-স্কিম",
+    "audit": "অডিট লগ",
+    "privacy": "গোপনীয়তা ও সম্মতি",
+    "sysadmin": "সিস্টেম অ্যাডমিন",
+    "dataStore": "ডেটা স্টোর",
+    "localization": "স্থানীয়করণ"
   },
   "navGroups": {
     "overview": "সারসংক্ষেপ",
     "programme": "কর্মসূচি",
     "intelligence": "ইন্টেলিজেন্স",
+    "operations": "পরিচালন",
+    "configuration": "কনফিগারেশন",
     "support": "সহায়তা",
     "governance": "সুশাসন",
     "system": "সিস্টেম"
