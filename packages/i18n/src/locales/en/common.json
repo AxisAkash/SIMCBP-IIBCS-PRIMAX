@@ -57,7 +57,10 @@
     "loading": "Loading…",
     "noData": "No records found",
     "required": "Required",
-    "optional": "Optional"
+    "optional": "Optional",
+    "demoData": "Illustrative demo data — not real programme data.",
+    "all": "All",
+    "backToList": "Back to list"
   },
   "shell": {
     "searchPlaceholder": "Search modules…",

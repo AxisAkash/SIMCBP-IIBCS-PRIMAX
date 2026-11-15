@@ -20,6 +20,14 @@ const sizeClasses: Record<Size, string> = {
   icon: 'h-9 w-9 justify-center',
 };
 
+const buttonBase =
+  'inline-flex items-center rounded-md font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)] focus-visible:ring-offset-1';
+
+/** Compose button classes for non-button elements (e.g. links styled as buttons). */
+export function buttonClasses(variant: Variant = 'primary', size: Size = 'md', className?: string) {
+  return cn(buttonBase, variantClasses[variant], sizeClasses[size], className);
+}
+
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: Variant;
   size?: Size;
@@ -35,14 +43,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
     <button
       ref={ref}
       type={type ?? 'button'}
-      className={cn(
-        'inline-flex items-center rounded-md font-medium transition-colors',
-        'disabled:pointer-events-none disabled:opacity-50',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)] focus-visible:ring-offset-1',
-        variantClasses[variant],
-        sizeClasses[size],
-        className,
-      )}
+      className={buttonClasses(variant, size, className)}
       {...props}
     >
       {leftIcon}

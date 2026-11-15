@@ -3,6 +3,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Sidebar } from './sidebar';
 import { Topbar } from './topbar';
+import { ToastProvider } from '@/components/ui/toast';
 import { cn } from '@/lib/cn';
 
 const COLLAPSE_KEY = 'sidebar-collapsed';
@@ -54,7 +55,9 @@ export function AppShell({ children }: { children: ReactNode }) {
       <div className="flex min-w-0 flex-1 flex-col">
         <Topbar onOpenMobile={() => setMobileOpen(true)} />
         <main className="flex-1">
-          <div className="mx-auto w-full max-w-[90rem] px-4 py-6 sm:px-6 lg:px-8">{children}</div>
+          <div className="mx-auto w-full max-w-[90rem] px-4 py-6 sm:px-6 lg:px-8">
+            <ToastProvider>{children}</ToastProvider>
+          </div>
         </main>
       </div>
     </div>
