@@ -1,0 +1,31 @@
+{
+  "name": "simcbp-mcbp-mis",
+  "version": "0.0.0",
+  "private": true,
+  "description": "SIMCBP / MCBP-MIS — Mother and Child Benefit Programme Integrated Management Information System (MoWCA, Bangladesh). Built by IBCS-PRIMAX Software (Bangladesh) Ltd.",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=12"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rimraf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css}\"",
+    "verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@simcbp/eslint-config": "workspace:*",
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.1",
+    "rimraf": "^6.0.1",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

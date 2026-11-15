@@ -1,0 +1,54 @@
+# === Dependencies ===
+node_modules/
+.pnpm-store/
+
+# === Build output ===
+dist/
+build/
+out/
+.next/
+.turbo/
+*.tsbuildinfo
+coverage/
+
+# === Environment & secrets (NEVER commit) ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+*.mobileprovision
+secrets/
+**/google-services.json
+**/GoogleService-Info.plist
+
+# === Logs ===
+*.log
+npm-debug.log*
+pnpm-debug.log*
+logs/
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+
+# === Test / tooling caches ===
+.eslintcache
+playwright-report/
+test-results/
+
+# === Mobile ===
+apps/mobile/.expo/
+apps/mobile/android/
+apps/mobile/ios/
+
+# === Local uploads / generated data ===
+uploads/
+tmp/

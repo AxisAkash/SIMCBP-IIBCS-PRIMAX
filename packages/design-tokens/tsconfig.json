@@ -1,0 +1,7 @@
+{
+  "extends": "@simcbp/tsconfig/react-library.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts"]
+}

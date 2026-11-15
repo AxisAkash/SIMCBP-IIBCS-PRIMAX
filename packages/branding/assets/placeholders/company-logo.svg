@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" role="img"
+     aria-label="Company logo placeholder — replace with official IBCS-PRIMAX logo">
+  <rect x="1" y="1" width="298" height="98" rx="8" fill="#f1f5f9"
+        stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="150" y="44" text-anchor="middle" font-family="sans-serif"
+        font-size="15" font-weight="700" fill="#475569">IBCS-PRIMAX</text>
+  <text x="150" y="66" text-anchor="middle" font-family="sans-serif"
+        font-size="10" fill="#94a3b8">COMPANY LOGO · PLACEHOLDER</text>
+</svg>

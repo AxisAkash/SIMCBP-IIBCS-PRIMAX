@@ -1,0 +1,80 @@
+/* =============================================================================
+ * SIMCBP / MCBP-MIS — Semantic design tokens (CSS variables).
+ *
+ * Light theme on :root; dark theme re-points the same roles under
+ * [data-theme="dark"] and .dark. Components reference ONLY these role
+ * variables (never raw hex), so theming is a single-layer swap.
+ * Values mirror @simcbp/design-tokens primitives.
+ * ========================================================================== */
+
+:root {
+  /* Surfaces */
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: #f1f5f9;
+
+  /* Borders */
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  /* Text */
+  --color-foreground: #0f172a;
+  --color-muted: #64748b;
+  --color-muted-foreground: #475569;
+
+  /* Primary (institutional green) */
+  --color-primary: #185541;
+  --color-primary-hover: #134535;
+  --color-primary-foreground: #ffffff;
+  --color-primary-subtle: #eef6f2;
+
+  /* Accent (MCBP magenta) */
+  --color-accent: #d12a74;
+  --color-accent-foreground: #ffffff;
+  --color-accent-subtle: #fdf2f7;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-info: #2563eb;
+
+  /* Focus ring */
+  --color-ring: #2f8063;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'],
+.dark {
+  --color-canvas: #020617;
+  --color-surface: #0f172a;
+  --color-surface-raised: #1e293b;
+  --color-surface-sunken: #0b1220;
+
+  --color-border: #1e293b;
+  --color-border-strong: #334155;
+
+  --color-foreground: #f1f5f9;
+  --color-muted: #94a3b8;
+  --color-muted-foreground: #cbd5e1;
+
+  --color-primary: #4f9d7e;
+  --color-primary-hover: #7cbaa0;
+  --color-primary-foreground: #04120d;
+  --color-primary-subtle: #0e382b;
+
+  --color-accent: #f273ad;
+  --color-accent-foreground: #280012;
+  --color-accent-subtle: #470824;
+
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+
+  --color-ring: #4f9d7e;
+
+  color-scheme: dark;
+}

@@ -1,0 +1,54 @@
+{
+  "app": {
+    "name": "MCBP-MIS",
+    "fullName": "Mother and Child Benefit Programme — Integrated MIS",
+    "organization": "Ministry of Women and Children Affairs",
+    "vendor": "IBCS-PRIMAX Software (Bangladesh) Ltd."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "beneficiaries": "Beneficiaries",
+    "payments": "Payments",
+    "training": "Training",
+    "grievance": "Grievance",
+    "monitoring": "Monitoring & Reporting",
+    "gis": "GIS Intelligence",
+    "helpdesk": "Helpdesk",
+    "handover": "Software Handover",
+    "administration": "Administration",
+    "settings": "Settings"
+  },
+  "actions": {
+    "create": "Create",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "approve": "Approve",
+    "reject": "Reject",
+    "review": "Review",
+    "export": "Export",
+    "search": "Search",
+    "filter": "Filter",
+    "viewDetails": "View details"
+  },
+  "status": {
+    "pending": "Pending",
+    "submitted": "Submitted",
+    "under_review": "Under review",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "blocked": "Blocked"
+  },
+  "common": {
+    "language": "Language",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "signOut": "Sign out",
+    "loading": "Loading…",
+    "noData": "No records found",
+    "required": "Required",
+    "optional": "Optional"
+  }
+}
