@@ -33,7 +33,7 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 - ✅ X1 Audit log · ✅ X2 Privacy/consent · ✅ X3 Sysadmin/backup · ✅ X4 Data store · ✅ X5 Localization admin
 
 ## Handover (7 categories)
-- ⬜ Overview + readiness · ⬜ Category dashboards · ⬜ Deliverable detail + workflow · ⬜ Final report
+- ✅ Overview + readiness ring · ✅ 7 category cards · ✅ Deliverable table + workflow drawer (evidence, versions, approve/reject) · ✅ Final acceptance gate
 
 ## Role dashboards
 - ⬜ Role-specific dashboard variants
@@ -42,4 +42,4 @@ first unchecked item. Legend: ✅ done · 🟡 partial · ⬜ todo.
 - ⬜ Full route verification · ✅ lint/typecheck/build green (incremental) · ⬜ responsive pass
 
 ## Next task
-Build the 7-category Handover module, then login page, role dashboards, and final QA/polish.
+Login page, role-dashboard variants, then final QA (routes, responsive, lint/build).
