@@ -9,8 +9,8 @@
 export { LOCALES, DEFAULT_LOCALE, LOCALE_META, isLocale } from './config';
 export type { Locale, LocaleMeta } from './config';
 
-import enCommon from './locales/en/common.json' with { type: 'json' };
-import bnCommon from './locales/bn/common.json' with { type: 'json' };
+import enCommon from './locales/en/common.json';
+import bnCommon from './locales/bn/common.json';
 import type { Locale } from './config';
 
 /** Flat registry of bundled namespaces per locale. */

@@ -44,6 +44,10 @@ export const tailwindPreset = {
         warning: withVar('color-warning', palette.warning[600]),
         danger: withVar('color-danger', palette.danger[600]),
         info: withVar('color-info', palette.info[600]),
+        'success-soft': withVar('color-success-soft', palette.success[50]),
+        'warning-soft': withVar('color-warning-soft', palette.warning[50]),
+        'danger-soft': withVar('color-danger-soft', palette.danger[50]),
+        'info-soft': withVar('color-info-soft', palette.info[50]),
         // Raw scales for charts / explicit needs.
         brand: palette.brand,
         'accent-scale': palette.accent,

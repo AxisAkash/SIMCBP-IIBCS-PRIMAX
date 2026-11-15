@@ -18,9 +18,15 @@ permission to skip dependencies or fabricate external approvals.
 - [x] Localization skeleton (en/bn + parity check) — X5.
 - [x] Centralized branding/asset config with placeholders.
 - [x] Documentation tree.
-- [ ] `apps/web` enterprise application shell (sidebar, top bar, workspace).
-- [ ] Shared `ui` component library (buttons, tables, badges, modals, states).
-- [ ] Language switching wired into the shell.
+- [x] `apps/web` enterprise application shell (grouped sidebar, top bar,
+      responsive workspace, global search, notifications, user menu).
+- [x] Design-system component layer (buttons, badges, cards, stat cards,
+      dropdown, breadcrumbs, empty/loading/error states).
+- [x] Language switching (English↔Bangla) and light/dark/system theme wired
+      into the shell; executive dashboard with clearly-labelled demo data.
+- [ ] Remaining for later: data tables, modals/drawers, form controls library
+      (built alongside the first data-entry module), and a dedicated `ui`
+      package extraction if shared with other web surfaces.
 
 ## Phase 2 — Core platform ⬜
 

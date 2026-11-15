@@ -18,6 +18,14 @@
     "administration": "প্রশাসন",
     "settings": "সেটিংস"
   },
+  "navGroups": {
+    "overview": "সারসংক্ষেপ",
+    "programme": "কর্মসূচি",
+    "intelligence": "ইন্টেলিজেন্স",
+    "support": "সহায়তা",
+    "governance": "সুশাসন",
+    "system": "সিস্টেম"
+  },
   "actions": {
     "create": "তৈরি করুন",
     "save": "সংরক্ষণ করুন",
@@ -50,5 +58,45 @@
     "noData": "কোনো রেকর্ড পাওয়া যায়নি",
     "required": "আবশ্যক",
     "optional": "ঐচ্ছিক"
+  },
+  "shell": {
+    "searchPlaceholder": "মডিউল অনুসন্ধান…",
+    "noResults": "কোনো মিল পাওয়া যায়নি",
+    "noNotifications": "নতুন কোনো বিজ্ঞপ্তি নেই",
+    "collapseSidebar": "সাইডবার সংকুচিত করুন",
+    "expandSidebar": "সাইডবার প্রসারিত করুন",
+    "openMenu": "নেভিগেশন খুলুন",
+    "closeMenu": "নেভিগেশন বন্ধ করুন",
+    "demoSession": "ডেমো সেশন · সাইন-ইন ফেজ ২-এ আসছে",
+    "developedBy": "ডেভেলপ করেছে",
+    "theme": "থিম",
+    "themeLight": "লাইট",
+    "themeDark": "ডার্ক",
+    "themeSystem": "সিস্টেম",
+    "planned": "এই মডিউলটি পরিকল্পিত",
+    "plannedHint": "এই অংশটি উন্নয়ন রোডম্যাপে রয়েছে এবং এখনও বাস্তবায়িত হয়নি।"
+  },
+  "dashboard": {
+    "title": "নির্বাহী ড্যাশবোর্ড",
+    "subtitle": "কর্মসূচি-ব্যাপী সারসংক্ষেপ",
+    "demoBanner": "উদাহরণমূলক ডেমো ডেটা — প্রকৃত কর্মসূচি পরিসংখ্যান নয়।",
+    "stats": {
+      "activeBeneficiaries": "সক্রিয় উপকারভোগী",
+      "pendingApplications": "অপেক্ষমাণ আবেদন",
+      "paymentsThisCycle": "এই চক্রের পেমেন্ট",
+      "openGrievances": "চলমান অভিযোগ"
+    },
+    "sections": {
+      "applicationPipeline": "আবেদন পাইপলাইন",
+      "paymentOverview": "পেমেন্ট সারসংক্ষেপ",
+      "grievanceStatus": "অভিযোগের অবস্থা",
+      "pendingApprovals": "অপেক্ষমাণ অনুমোদন",
+      "recentActivity": "সাম্প্রতিক কার্যক্রম",
+      "systemHealth": "সিস্টেম স্বাস্থ্য"
+    },
+    "empty": {
+      "approvals": "কোনো অপেক্ষমাণ অনুমোদন নেই",
+      "activity": "কোনো সাম্প্রতিক কার্যক্রম নেই"
+    }
   }
 }

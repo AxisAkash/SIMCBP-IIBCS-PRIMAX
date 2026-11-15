@@ -39,11 +39,14 @@ verified reality**, never aspiration. Legend: ⬜ planned · 🟡 in progress ·
 | X2 Privacy/consent | consent, retention, archival, erasure | ⬜ | ⬜ |
 | X3 Sysadmin | administration, monitoring, backup | ⬜ | ⬜ |
 | X4 Data store | two-tier store, controlled aggregation | ⬜ | ⬜ |
-| X5 Localization | en/bn framework | 🟡 | ⬜ |
+| X5 Localization | en/bn framework + runtime switching in the shell | 🟡 | ⬜ |
 
 Foundations delivered so far (Phase 1): design system, shared domain types,
-localization skeleton (en/bn + parity check), branding config. These are
-enablers, not module completion.
+localization framework with working English↔Bangla runtime switching, branding
+config, and the enterprise application shell + executive dashboard (demo data).
+These are enablers and UI scaffolding — **not** module completion. In particular,
+the dashboard renders clearly-labelled demo data and does **not** constitute M07
+(Monitoring & Reporting), which remains planned.
 
 ## 3. Handover categories (SRS §4)
 

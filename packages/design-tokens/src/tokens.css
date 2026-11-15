@@ -40,6 +40,12 @@
   --color-danger: #dc2626;
   --color-info: #2563eb;
 
+  /* Status — soft tint backgrounds (pills, alerts) */
+  --color-success-soft: #f0fdf4;
+  --color-warning-soft: #fffbeb;
+  --color-danger-soft: #fef2f2;
+  --color-info-soft: #eff6ff;
+
   /* Focus ring */
   --color-ring: #2f8063;
 
@@ -73,6 +79,11 @@
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
   --color-info: #3b82f6;
+
+  --color-success-soft: #0b2a1a;
+  --color-warning-soft: #2a1d08;
+  --color-danger-soft: #2a1414;
+  --color-info-soft: #10233f;
 
   --color-ring: #4f9d7e;
 

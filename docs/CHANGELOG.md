@@ -7,6 +7,26 @@ nothing unfinished is logged as done.
 
 ## [Unreleased]
 
+### Added — Phase 1 enterprise application shell
+- `apps/web`: Next.js (App Router) application scaffolded with the design-token
+  Tailwind preset, theme-aware global styles, and CI-safe typing.
+- Enterprise shell: collapsible grouped sidebar with active states, top bar with
+  breadcrumbs, a functional module **global search**, notifications menu,
+  **English↔Bangla** language switcher, and light/dark/system theme toggle
+  (pre-paint, no flash). Responsive desktop sidebar ↔ mobile drawer.
+- Design-system component layer: Button, Badge/StatusBadge, Card, StatCard,
+  Breadcrumbs, Dropdown, PageHeader, Spinner, and first-class Empty/Loading/
+  Error states.
+- Executive dashboard: KPI cards, application-pipeline / payment / grievance
+  distributions, pending-approvals, recent-activity, and system-health panels —
+  all rendering **clearly-labelled demo data** behind a prominent demo banner,
+  with Bangla numerals via locale-aware formatting.
+- Honest "planned module" placeholder for every roadmap nav target (no dead links).
+- Centralized logo rendering via `@simcbp/branding` (placeholder marks until
+  official assets are supplied).
+- `-soft` semantic tint tokens added to the design system for accessible status
+  surfaces.
+
 ### Added — Phase 1 foundation
 - Monorepo scaffold: pnpm workspaces + Turborepo, TypeScript/ESLint/Prettier
   standards, EditorConfig, environment template, `.gitignore` hardening.

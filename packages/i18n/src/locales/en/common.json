@@ -18,6 +18,14 @@
     "administration": "Administration",
     "settings": "Settings"
   },
+  "navGroups": {
+    "overview": "Overview",
+    "programme": "Programme",
+    "intelligence": "Intelligence",
+    "support": "Support",
+    "governance": "Governance",
+    "system": "System"
+  },
   "actions": {
     "create": "Create",
     "save": "Save",
@@ -50,5 +58,45 @@
     "noData": "No records found",
     "required": "Required",
     "optional": "Optional"
+  },
+  "shell": {
+    "searchPlaceholder": "Search modules…",
+    "noResults": "No matching modules",
+    "noNotifications": "You're all caught up",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation",
+    "demoSession": "Demo session · sign-in arrives in Phase 2",
+    "developedBy": "Developed by",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "planned": "This module is planned",
+    "plannedHint": "This area is on the development roadmap and is not yet implemented."
+  },
+  "dashboard": {
+    "title": "Executive Dashboard",
+    "subtitle": "Programme-wide overview",
+    "demoBanner": "Illustrative demo data — not actual programme figures.",
+    "stats": {
+      "activeBeneficiaries": "Active beneficiaries",
+      "pendingApplications": "Pending applications",
+      "paymentsThisCycle": "Payments this cycle",
+      "openGrievances": "Open grievances"
+    },
+    "sections": {
+      "applicationPipeline": "Application pipeline",
+      "paymentOverview": "Payment overview",
+      "grievanceStatus": "Grievance status",
+      "pendingApprovals": "Pending approvals",
+      "recentActivity": "Recent activity",
+      "systemHealth": "System health"
+    },
+    "empty": {
+      "approvals": "No pending approvals",
+      "activity": "No recent activity"
+    }
   }
 }
